@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #fff;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 15rem;
+  padding: 2rem;
+}
+
+img, h2, p {
+  margin-bottom: 1.2rem;
+}
+
+.card-one {
+  background-color: #e38826;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-two {
+  background-color: #006970;
+}
+
+.card-three {
+  background-color: #004241;
+  border-radius: 0 0 10px 10px;
+}
+
+.card-title {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: 1rem;
+}
+
+.btn-card {
+  border: none;
+  background-color: #fff;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.btn-card:hover {
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+.btn-one {
+  color: #e38826;
+}
+
+.btn-two {
+  color: #006970;
+}
+
+.btn-three {
+  color: #004241;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card {
+    width: 14rem;
+  }
+  .card-text {
+    font-size: 12px;
+    line-height: 1.3rem;
+  }
+  .card-one {
+    border-radius: 10px 0 0 10px;
+  }
+  .card-three {
+    border-radius: 0 10px 10px 0;
+  }
+  img, h2, p {
+    margin-bottom: 2.2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
